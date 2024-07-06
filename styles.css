@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+header {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.search-container {
+  margin-top: 1em;
+}
+
+#search {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+button {
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+main {
+  width: 90%;
+  max-width: 800px;
+  margin: 2em 0;
+  text-align: center;
+}
+
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1em;
+}
+
+#gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5em;
+}
+
+.pagination {
+  margin: 2em 0;
+}
+
+#randomCatButton {
+  margin-top: 2em;
+}
